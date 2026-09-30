@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /gracias.html
+
+Sitemap: https://despensa-system.netlify.app/sitemap.xml

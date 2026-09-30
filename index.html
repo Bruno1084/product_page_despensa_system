@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Despensa System · Pedidos por WhatsApp con IA para tu comercio</title>
+  <meta name="description" content="Despensa System atiende los pedidos de tu comercio por WhatsApp las 24 horas: un asistente con IA responde precios y stock, arma el pedido con el cliente y te lo deja listo en un panel para prepararlo.">
+  <meta name="theme-color" content="#f7faf9">
+  <!-- COMPLETAR: reemplazar el dominio en canonical, og:url, og:image, JSON-LD, robots.txt y sitemap.xml -->
+  <link rel="canonical" href="https://despensa-system.netlify.app/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Despensa System">
+  <meta property="og:title" content="Despensa System · Tu comercio atiende pedidos por WhatsApp las 24 horas">
+  <meta property="og:description" content="Un asistente con IA responde precios y stock, arma el pedido con el cliente y te lo deja listo en un panel para prepararlo.">
+  <meta property="og:url" content="https://despensa-system.netlify.app/">
+  <meta property="og:image" content="https://despensa-system.netlify.app/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Despensa System: pedidos por WhatsApp con IA y un panel para prepararlos">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Despensa System",
+    "url": "https://despensa-system.netlify.app/",
+    "image": "https://despensa-system.netlify.app/assets/img/og-image.png",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web, WhatsApp",
+    "inLanguage": "es-AR",
+    "description": "Asistente con IA que atiende pedidos por WhatsApp las 24 horas y panel web para gestionar conversaciones, pedidos, productos y stock de comercios de barrio.",
+    "featureList": [
+      "Asistente de WhatsApp con IA disponible 24/7",
+      "Consulta de precios y stock",
+      "Armado de pedidos por chat",
+      "Datos de entrega y medio de pago",
+      "Derivación a una persona",
+      "Panel con conversaciones, pedidos, productos y clientes",
+      "Control de stock",
+      "Impresión de tickets"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Despensa System, inicio">
+        <img class="brand-logo" src="assets/img/logo.svg" alt="" width="40" height="40">
+        <span>Despensa System<small>Pedidos por WhatsApp con IA</small></span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Principal">
+        <ul>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#funciones">Funciones</a></li>
+          <li><a href="#para-quien">Para quién</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li class="nav-cta"><a href="#contacto">Pedí una demo</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-primary btn-sm header-cta" href="#contacto">Pedí una demo</a>
+
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Para almacenes y comercios de barrio</span>
+          <h1>Tu comercio atiende pedidos por WhatsApp <span class="hl">las 24 horas</span></h1>
+          <p class="lead">Un asistente con IA responde precios y stock, arma el pedido con el cliente y te lo deja listo en un panel para que lo prepares. Vos seguís atendiendo como siempre, pero sin estar pegado al celular.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contacto">Pedí una demo</a>
+            <a class="btn btn-ghost" href="#como-funciona">Ver cómo funciona</a>
+          </div>
+          <ul class="hero-meta">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Responde 24/7</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Vos revisás cada pedido</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 22V3"/><path d="M5 4h13l-2.5 4.5L18 13H5"/></svg>Hecho en Argentina</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="phone" role="img" aria-label="Ejemplo de conversación por WhatsApp entre un cliente y el asistente automático de un comercio ficticio, Almacén Don Pepe. El cliente pide una yerba de 1 kilo y dos leches enteras, y el asistente arma el pedido y pregunta la dirección de entrega y el medio de pago.">
+            <div class="chat-head" aria-hidden="true">
+              <span class="avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 13v7h14v-7"/><path d="M10 20v-4h4v4"/></svg></span>
+              <div><strong>Almacén Don Pepe</strong><small>Asistente automático · en línea</small></div>
+            </div>
+            <div class="chat-body" aria-hidden="true">
+              <span class="chat-note">Te responde un asistente automático con IA</span>
+              <div class="bubble out">Hola! ¿Tienen yerba de 1 kg y leche?<time>21:42</time></div>
+              <div class="bubble in">¡Hola! Sí 🙌 Tenemos yerba de 1 kg y leche entera y descremada. ¿Cuáles te separo?<time>21:42</time></div>
+              <div class="bubble out">Una yerba y 2 leches enteras<time>21:43</time></div>
+              <div class="bubble in">Listo ✅ Tu pedido:<br>• 1 × Yerba 1 kg<br>• 2 × Leche entera 1 L<br>¿Retirás en el local o te lo enviamos?<time>21:43</time></div>
+              <div class="bubble out">Envío, por favor<time>21:44</time></div>
+              <div class="bubble in">Perfecto. ¿A qué dirección y cómo vas a pagar? (efectivo o Mercado Pago)<time>21:44</time></div>
+            </div>
+          </div>
+          <div class="float-card" aria-hidden="true">
+            <span class="float-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.3a2 2 0 0 0 2 1.7h7.8a2 2 0 0 0 2-1.6L21 8H6"/></svg></span>
+            <strong>Nuevo pedido #1043</strong>
+            <span class="float-meta">2 productos · $6.900 · Envío</span>
+            <span><span class="badge pending">Pendiente de revisión</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problema -->
+    <section class="section-alt" id="problema">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">El problema</span>
+          <h2>WhatsApp vende, pero atenderlo a mano cansa</h2>
+          <p class="muted">Tus clientes ya te piden por WhatsApp. El problema es todo lo que viene después.</p>
+        </div>
+        <div class="problems">
+          <article class="problem">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></div>
+            <h3>Mensajes fuera de horario</h3>
+            <p>Te escriben a la noche o mientras atendés el mostrador, y el mensaje queda sin respuesta. El cliente compra en otro lado.</p>
+            <p class="fix">El asistente responde al instante, a cualquier hora.</p>
+          </article>
+          <article class="problem">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></div>
+            <h3>Siempre las mismas preguntas</h3>
+            <p>“¿Cuánto sale?”, “¿tenés?”, “¿hasta qué hora abrís?”. Contestar lo mismo veinte veces por día te saca tiempo.</p>
+            <p class="fix">Precios y stock se responden solos, con tus datos.</p>
+          </article>
+          <article class="problem">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M9 14l6 0M9 18h4"/></svg></div>
+            <h3>Pedidos en papel o perdidos en el chat</h3>
+            <p>Anotás en un cuaderno o scrolleás el chat para ver qué pidió cada uno. Un error y el pedido sale mal.</p>
+            <p class="fix">Cada pedido queda ordenado en tu panel.</p>
+          </article>
+          <article class="problem">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8z"/><path d="M12 13v8"/><path d="M12 9v.01"/></svg></div>
+            <h3>Stock a ojo</h3>
+            <p>No sabés bien qué te queda hasta que vas a buscarlo a la estantería, y a veces vendés algo que ya no tenés.</p>
+            <p class="fix">El asistente avisa si no alcanza el stock, y este se actualiza con cada venta.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cómo funciona -->
+    <section id="como-funciona">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Cómo funciona</span>
+          <h2>Del mensaje al pedido listo, en tres pasos</h2>
+          <p class="muted">Tus clientes no instalan nada ni crean cuentas: siguen usando el WhatsApp de siempre.</p>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="who">Tu cliente</span>
+            <h3>Escribe por WhatsApp</h3>
+            <p>Manda un mensaje cuando quiere, con sus palabras: “¿tenés yerba?”, “mandame 2 leches”, “¿cuánto sale el aceite?”.</p>
+          </li>
+          <li class="step">
+            <span class="who">El asistente</span>
+            <h3>Arma el pedido</h3>
+            <p>Consulta tu catálogo, responde precios y stock, suma y quita productos, y pide la dirección y el medio de pago antes de confirmar.</p>
+          </li>
+          <li class="step">
+            <span class="who">Vos</span>
+            <h3>Lo preparás desde el panel</h3>
+            <p>El pedido te llega ordenado. Lo revisás, imprimís el ticket y lo preparás para retiro o envío.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Funciones -->
+    <section class="section-alt" id="funciones">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Funciones</span>
+          <h2>Todo lo que necesitás para vender por WhatsApp</h2>
+          <p class="muted">Un asistente que atiende y un panel para controlar. Pensado para comercios chicos, sin vueltas técnicas.</p>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/><path d="M8 11h.01M12 11h.01M16 11h.01"/></svg></div>
+            <h3>Asistente con IA, 24/7</h3>
+            <p>Entiende mensajes escritos como habla la gente, con errores y abreviaturas, y contesta al toque, de día o de noche.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div>
+            <h3>Precios y stock al instante</h3>
+            <p>Tus clientes preguntan qué hay y cuánto sale, o piden ver una categoría, y reciben la respuesta en el momento.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.3a2 2 0 0 0 2 1.7h7.8a2 2 0 0 0 2-1.6L21 8H6"/></svg></div>
+            <h3>Pedidos chateando</h3>
+            <p>Arman el pedido como si hablaran con vos: agregan, sacan o cambian cantidades hasta que queda como quieren.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg></div>
+            <h3>Entrega y pago resueltos</h3>
+            <p>Antes de confirmar, el asistente pide lo que falta: retiro o envío, dirección y medio de pago (efectivo, transferencia, Mercado Pago, débito o crédito).</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+            <h3>Pedidos bajo tu control</h3>
+            <p>Cada pedido queda registrado y pasa por tu revisión. Lo seguís de pendiente a confirmado, en preparación, en reparto y entregado.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div>
+            <h3>Una persona cuando hace falta</h3>
+            <p>Si el cliente pide hablar con alguien, lo atendés vos. También podés tomar cualquier conversación desde el panel.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+            <h3>Todo en un solo panel</h3>
+            <p>Conversaciones, pedidos, productos y clientes en un panel web. Ves el historial de cada cliente y podés cargar pedidos a mano.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
+            <h3>Stock actualizado</h3>
+            <p>El stock se descuenta con cada venta y queda registrado cada movimiento: ingresos, ajustes y salidas.</p>
+          </article>
+          <article class="feature">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg></div>
+            <h3>Tickets para preparar</h3>
+            <p>Imprimí el ticket de cada pedido para armarlo sin errores, o descargalo en PDF.</p>
+          </article>
+        </div>
+
+        <div class="roadmap">
+          <h3>En camino</h3>
+          <ul>
+            <li><span class="soon">Próximamente</span> Usuarios y contraseñas para tu equipo</li>
+            <li><span class="soon">Próximamente</span> Reportes de ventas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel de gestión -->
+    <section id="panel">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Panel de gestión</span>
+          <h2>Conversaciones, pedidos y productos en un solo lugar</h2>
+          <p class="muted">Mirá cómo se ve el panel con un comercio de ejemplo.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Pantallas del panel">
+          <button class="tab" type="button" role="tab" id="tab-inbox" aria-controls="panel-inbox" aria-selected="true">Conversaciones</button>
+          <button class="tab" type="button" role="tab" id="tab-pedidos" aria-controls="panel-pedidos" aria-selected="false" tabindex="-1">Pedidos</button>
+          <button class="tab" type="button" role="tab" id="tab-productos" aria-controls="panel-productos" aria-selected="false" tabindex="-1">Productos</button>
+        </div>
+
+        <div class="app-window">
+          <div class="app-bar" aria-hidden="true">
+            <span class="dots"><i></i><i></i><i></i></span>
+            <span>Panel · Almacén Don Pepe</span>
+            <span class="demo-tag badge ok">Datos de ejemplo</span>
+          </div>
+          <div class="app-body">
+            <div class="app-side" aria-hidden="true">
+              <div class="side-brand"><img src="assets/img/logo.svg" alt="" width="28" height="28"><span>Despensa</span></div>
+              <div class="side-item" data-side="inbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg><span>Conversaciones</span></div>
+              <div class="side-item" data-side="pedidos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.3a2 2 0 0 0 2 1.7h7.8a2 2 0 0 0 2-1.6L21 8H6"/></svg><span>Pedidos</span></div>
+              <div class="side-item" data-side="productos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg><span>Productos</span></div>
+            </div>
+
+            <!-- Conversaciones -->
+            <div class="app-main" role="tabpanel" id="panel-inbox" aria-labelledby="tab-inbox" tabindex="0">
+              <div class="inbox">
+                <ul class="inbox-list" aria-label="Conversaciones de ejemplo">
+                  <li class="active"><strong>Lucía P.</strong><time>21:50</time><span class="preview">¿Tenés fideos y salsa?</span><span class="badge bot">Asistente</span></li>
+                  <li><strong>Jorge R.</strong><time>21:12</time><span class="preview">Dale, lo paso a buscar</span><span class="badge human">Vos</span></li>
+                  <li><strong>María G.</strong><time>20:47</time><span class="preview">Pedido confirmado ✅</span><span class="badge bot">Asistente</span></li>
+                  <li><strong>Carlos M.</strong><time>19:30</time><span class="preview">¿A qué hora cierran?</span><span class="badge bot">Asistente</span></li>
+                </ul>
+                <div class="inbox-chat">
+                  <div class="inbox-chat-head">
+                    <div><strong>Lucía P.</strong><span class="muted">Atiende: Asistente</span></div>
+                    <span class="fake-btn">Tomar la conversación</span>
+                  </div>
+                  <div class="inbox-chat-body">
+                    <div class="bubble in">¿Tenés fideos y salsa de tomate?<time>21:48</time></div>
+                    <div class="bubble out">¡Sí! Fideos tirabuzón 500 g a $1.100 y salsa de tomate 340 g a $950. ¿Cuántos te separo?<time>21:48</time></div>
+                    <div class="bubble in">2 de fideos y 1 salsa, lo retiro mañana<time>21:50</time></div>
+                  </div>
+                  <div class="draft">
+                    <div>
+                      <strong>Pedido en armado</strong>
+                      <ul>
+                        <li>2 × Fideos tirabuzón 500 g</li>
+                        <li>1 × Salsa de tomate 340 g</li>
+                      </ul>
+                    </div>
+                    <div><strong>$3.150</strong> <span class="muted">· Retiro en local</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pedidos -->
+            <div class="app-main" role="tabpanel" id="panel-pedidos" aria-labelledby="tab-pedidos" tabindex="0">
+              <div class="app-head">
+                <h3>Pedidos de hoy</h3>
+                <div class="app-actions"><span class="fake-btn">Filtrar</span><span class="fake-btn primary">Imprimir ticket</span></div>
+              </div>
+              <div class="app-pad">
+                <div class="kpis">
+                  <div class="kpi"><span>Pendientes</span><strong>3</strong></div>
+                  <div class="kpi"><span>En preparación</span><strong>2</strong></div>
+                  <div class="kpi"><span>En reparto</span><strong>1</strong></div>
+                  <div class="kpi"><span>Entregados</span><strong>14</strong></div>
+                </div>
+                <div class="mock-table-wrap">
+                  <table class="mock-table">
+                    <caption class="visually-hidden">Pedidos de ejemplo</caption>
+                    <thead>
+                      <tr><th scope="col">Pedido</th><th scope="col">Cliente</th><th scope="col" class="hide-sm">Entrega</th><th scope="col" class="hide-sm">Pago</th><th scope="col" class="num">Total</th><th scope="col">Estado</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>#1043</td><td>Ana S.</td><td class="hide-sm">Envío</td><td class="hide-sm">Mercado Pago</td><td class="num">$6.900</td><td><span class="badge pending">Pendiente</span></td></tr>
+                      <tr><td>#1042</td><td>Lucía P.</td><td class="hide-sm">Retiro</td><td class="hide-sm">Efectivo</td><td class="num">$3.150</td><td><span class="badge confirmed">Confirmado</span></td></tr>
+                      <tr><td>#1041</td><td>Jorge R.</td><td class="hide-sm">Retiro</td><td class="hide-sm">Débito</td><td class="num">$12.480</td><td><span class="badge preparing">Preparando</span></td></tr>
+                      <tr><td>#1040</td><td>María G.</td><td class="hide-sm">Envío</td><td class="hide-sm">Transferencia</td><td class="num">$8.320</td><td><span class="badge delivering">En reparto</span></td></tr>
+                      <tr><td>#1039</td><td>Carlos M.</td><td class="hide-sm">Retiro</td><td class="hide-sm">Efectivo</td><td class="num">$2.700</td><td><span class="badge completed">Completado</span></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Productos -->
+            <div class="app-main" role="tabpanel" id="panel-productos" aria-labelledby="tab-productos" tabindex="0">
+              <div class="app-head">
+                <h3>Productos</h3>
+                <div class="app-actions"><span class="fake-btn">Mover stock</span><span class="fake-btn primary">+ Nuevo producto</span></div>
+              </div>
+              <div class="app-pad">
+                <div class="mock-table-wrap">
+                  <table class="mock-table">
+                    <caption class="visually-hidden">Productos de ejemplo</caption>
+                    <thead>
+                      <tr><th scope="col">Producto</th><th scope="col" class="hide-sm">Categoría</th><th scope="col" class="num">Precio</th><th scope="col" class="num">Stock</th><th scope="col">Estado</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>Yerba mate 1 kg</td><td class="hide-sm">Almacén</td><td class="num">$4.200</td><td class="num">18</td><td><span class="badge ok">OK</span></td></tr>
+                      <tr><td>Leche entera 1 L</td><td class="hide-sm">Lácteos</td><td class="num">$1.350</td><td class="num">4</td><td><span class="badge low">Stock bajo</span></td></tr>
+                      <tr><td>Fideos tirabuzón 500 g</td><td class="hide-sm">Almacén</td><td class="num">$1.100</td><td class="num">32</td><td><span class="badge ok">OK</span></td></tr>
+                      <tr><td>Aceite de girasol 1,5 L</td><td class="hide-sm">Almacén</td><td class="num">$3.900</td><td class="num">11</td><td><span class="badge ok">OK</span></td></tr>
+                      <tr><td>Arroz largo fino 1 kg</td><td class="hide-sm">Almacén</td><td class="num">$1.600</td><td class="num">2</td><td><span class="badge low">Stock bajo</span></td></tr>
+                      <tr><td>Galletitas de agua 300 g</td><td class="hide-sm">Galletitas</td><td class="num">$980</td><td class="num">25</td><td><span class="badge ok">OK</span></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="demo-caption">Comercio, clientes, pedidos y precios inventados, solo como ejemplo.</p>
+
+        <ul class="panel-points">
+          <li>
+            <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
+            <p><strong>Conversaciones.</strong> Leé lo que habló el asistente con cada cliente y tomá el chat cuando quieras.</p>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
+            <p><strong>Pedidos.</strong> Revisalos, cambiá su estado, cancelá si hace falta e imprimí el ticket.</p>
+          </li>
+          <li>
+            <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
+            <p><strong>Productos.</strong> Cargá precios, registrá ingresos de mercadería y mirá qué se está por terminar.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Para quién -->
+    <section class="section-alt" id="para-quien">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Para quién es</span>
+          <h2>Hecho para el comercio de barrio</h2>
+          <p class="muted">Si ya recibís pedidos por WhatsApp y los manejás a mano, esto es para vos.</p>
+        </div>
+        <div class="audience-grid">
+          <ul class="audience">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 13v7h14v-7"/></svg>Almacenes</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg>Despensas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.3a2 2 0 0 0 2 1.7h7.8a2 2 0 0 0 2-1.6L21 8H6"/></svg>Autoservicios</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/><path d="M2 21c0-3 1.9-5.4 5.2-6"/></svg>Dietéticas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.8 1.2 3.5 3.5 0 0 0-2.4-2.4A3.5 3.5 0 0 1 6 10.4 5 5 0 0 1 9 10z"/></svg>Forrajerías</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21v-6h6v6"/></svg>Otros comercios de barrio</li>
+          </ul>
+          <div class="fit">
+            <h3>Te sirve si…</h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Tus clientes ya te piden por WhatsApp.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Perdés ventas por no llegar a contestar a tiempo.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Querés tener los pedidos y el stock ordenados sin complicarte.</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>No sos técnico y no tenés tiempo de aprender un sistema difícil.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IA responsable -->
+    <section id="ia-responsable">
+      <div class="container">
+        <div class="notice">
+          <div>
+            <span class="eyebrow">IA responsable</span>
+            <h2>Automático, pero con reglas claras</h2>
+            <p>El asistente está para ahorrarte tiempo, no para reemplazar la confianza que tus clientes tienen en tu comercio. Por eso funciona con estos límites.</p>
+            <p class="muted">La IA puede equivocarse. Por eso la última palabra sobre cada pedido la tenés vos.</p>
+          </div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg><span><strong>Se presenta como asistente automático</strong> desde el primer mensaje. Nadie cree que habla con una persona si no es así.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span><strong>Siempre se puede pedir una persona.</strong> El cliente lo pide y la conversación pasa a vos.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span><strong>Nunca pide contraseñas ni datos de tarjetas.</strong> Solo lo necesario para armar y entregar el pedido.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span><strong>Vos revisás cada pedido</strong> antes de prepararlo. Si algo no cierra, lo corregís o lo cancelás.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Caso de uso -->
+    <section class="section-alt" id="caso">
+      <div class="container">
+        <div class="case">
+          <span class="case-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 13v7h14v-7"/><path d="M10 20v-4h4v4"/></svg></span>
+          <div>
+            <h2>Ya funciona en un almacén de barrio en Argentina</h2>
+            <p>Despensa System nació para resolver los pedidos por WhatsApp de un almacén real, y hoy ese comercio lo usa para atender a sus clientes. No es un experimento: está pensado a partir del día a día de un mostrador.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preguntas frecuentes -->
+    <section id="preguntas">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Lo que más nos preguntan</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>¿Necesito un número nuevo de WhatsApp?</summary>
+            <p>El asistente funciona con WhatsApp Business. Podés usar un número dedicado para el comercio o, en algunos casos, el que ya usás. En la demo vemos juntos qué opción te conviene según cómo atendés hoy.</p>
+          </details>
+          <details>
+            <summary>¿Mis clientes tienen que instalar algo?</summary>
+            <p>No. Tus clientes escriben al WhatsApp del comercio como siempre. No descargan apps ni crean cuentas.</p>
+          </details>
+          <details>
+            <summary>¿Qué pasa si el asistente no entiende?</summary>
+            <p>Repregunta para aclarar lo que el cliente quiso decir. Si el cliente pide hablar con alguien, la conversación pasa a vos. Y desde el panel ves todas las conversaciones, así que podés tomar cualquier chat en el momento que quieras.</p>
+          </details>
+          <details>
+            <summary>¿Cómo cargo mis productos?</summary>
+            <p>Desde el panel cargás cada producto con su código, precio, categoría y stock. Si tenés una lista grande, contanos en la demo cómo la tenés y vemos la mejor forma de cargarla.</p>
+          </details>
+          <details>
+            <summary>¿Quién ve las conversaciones?</summary>
+            <p>Las conversaciones y los pedidos son de tu comercio y los ves desde tu panel. Nosotros no los usamos para publicidad ni los vendemos: solo se procesan para que el servicio funcione y, si lo pedís, para darte soporte.</p>
+            <p>Los mensajes viajan por WhatsApp y el asistente usa un proveedor de inteligencia artificial para generar las respuestas.</p>
+          </details>
+          <details>
+            <summary>¿Cuánto cuesta?</summary>
+            <p>Depende del tamaño de tu comercio y de cuántos pedidos recibís. Pedí una demo y te pasamos una propuesta a medida, sin compromiso.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section-alt" id="contacto">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-side">
+            <h2>Pedí una demo</h2>
+            <p>Contanos de tu comercio y te mostramos cómo quedaría el asistente atendiendo a tus clientes.</p>
+            <ol class="next-steps">
+              <li>Te escribimos para coordinar un horario.</li>
+              <li>Te mostramos el asistente y el panel con un comercio de ejemplo.</li>
+              <li>Si te sirve, vemos juntos cómo ponerlo en marcha en tu comercio.</li>
+            </ol>
+          </div>
+
+          <form class="form" name="demo" method="POST" action="/gracias.html" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="demo">
+            <p class="hp-field" aria-hidden="true">
+              <label>No completes este campo <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+            </p>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="f-nombre">Tu nombre</label>
+                <input id="f-nombre" name="nombre" type="text" autocomplete="name" required maxlength="80" aria-describedby="e-nombre">
+                <span class="error" id="e-nombre" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="f-comercio">Nombre del comercio</label>
+                <input id="f-comercio" name="comercio" type="text" autocomplete="organization" required maxlength="100" aria-describedby="e-comercio">
+                <span class="error" id="e-comercio" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="f-contacto">Email o WhatsApp</label>
+              <input id="f-contacto" name="contacto" type="text" autocomplete="email" required maxlength="120" aria-describedby="h-contacto e-contacto">
+              <span class="hint" id="h-contacto">Por donde prefieras que te respondamos.</span>
+              <span class="error" id="e-contacto" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+              <label for="f-mensaje">Mensaje <span class="optional">(opcional)</span></label>
+              <textarea id="f-mensaje" name="mensaje" maxlength="1500" placeholder="Ej.: tengo un almacén y recibo unos 20 pedidos por día por WhatsApp."></textarea>
+            </div>
+
+            <p class="form-legal">Usamos estos datos solo para responderte. Más info en la <a href="privacidad.html">política de privacidad</a>.</p>
+
+            <button class="btn btn-primary" type="submit">Enviar y pedir la demo</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© <span data-year>2026</span> Despensa System · Hecho en Argentina</p>
+      <ul class="footer-links">
+        <li><a href="privacidad.html">Política de privacidad</a></li>
+        <li><a href="terminos.html">Términos y condiciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
